@@ -27,7 +27,7 @@ Instalación
 
     Clona este repositorio en tu máquina local:
 
-git clone 
+git clone https://github.com/EzeTauil/QRGo.git
 
 Instala las dependencias necesarias:
 
