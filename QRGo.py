@@ -103,7 +103,7 @@ menu_bar.add_cascade(label="Idioma", menu=menu_language)
 # Crear el texto "sombra" desplazado y con un color oscuro
 shadow_label = tk.Label(root, text="Generador de QR", font=("Arial", 28, "bold"), 
                         fg="gray", bg="white", relief="solid", padx=10, pady=10)
-shadow_label.place(x=75, y=15)  # Desplazamos un poco el texto de la sombra
+shadow_label.place(x=175, y=15)  # Desplazamos un poco el texto de la sombra
 
 # Crear el texto principal
 label_title = tk.Label(root, text="Generador de QR", font=("Arial", 28, "bold"), 
