@@ -51,16 +51,16 @@ def cambiar_idioma(idioma):
         "es": {
             "title": "Generador de QR",
             "generate": "🖋 Generar QR",
-            "update": "Buscar Actualizaciones",
-            "exit": "Salir",
+            "update": "🔍 Buscar Actualizaciones",
+            "exit": "⛔ Salir",
             "about": "Acerca de",
             "info": "Este programa genera códigos QR a partir de texto."
         },
         "en": {
             "title": "QR Generator",
             "generate": "🖋 Generate QR",
-            "update": "Check for Updates",
-            "exit": "Exit",
+            "update": "🔍 Check for Updates",
+            "exit": "⛔ Exit",
             "about": "About",
             "info": "Info"
         }
