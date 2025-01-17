@@ -31,7 +31,7 @@ git clone https://github.com/EzeTauil/QRGo.git
 
 Instala las dependencias necesarias:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Ejecuta el programa:
 
