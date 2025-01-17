@@ -25,9 +25,9 @@ Requisitos
 
 Instalación
 
-    Clona este repositorio en tu máquina local:
+Clona este repositorio en tu máquina local:
 
-git clone https://github.com/EzeTauil/QRGo.git
+    git clone https://github.com/EzeTauil/QRGo.git
 
 Instala las dependencias necesarias:
 
