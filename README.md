@@ -40,6 +40,7 @@ Ejecuta el programa:
 Contribuciones
 
 Si tienes sugerencias, mejoras o correcciones, no dudes en abrir un "issue" o enviar un "pull request". ¡Toda contribución es bienvenida!
-Licencia
+
+    Licencia
 
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
