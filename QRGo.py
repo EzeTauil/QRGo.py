@@ -107,7 +107,7 @@ shadow_label.place(x=240, y=15)  # Desplazamos un poco el texto de la sombra
 
 # Crear el texto principal
 label_title = tk.Label(root, text="Generador de QR", font=("Arial", 28, "bold"), 
-                       fg="blue", bg="white")
+                       fg="blue",)
 label_title.pack(pady=10)
 
 # Texto de entrada
