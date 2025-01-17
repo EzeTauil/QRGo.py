@@ -1,5 +1,5 @@
-#            QRGo
-ShadowCrypt-Security QRGo.py
+# QRGo.py 
+
 
 QRGo.py es una herramienta intuitiva y fácil de usar para generar códigos QR personalizados. Este programa permite a los usuarios ingresar  mensajes o URL's, y luego genera un código QR que puede ser escaneado para acceder a esa información de manera rápida y eficiente.
 Características
