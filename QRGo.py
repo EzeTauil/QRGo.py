@@ -62,7 +62,7 @@ def cambiar_idioma(idioma):
             "update": "Check for Updates",
             "exit": "Exit",
             "about": "About",
-            "info": "This program generates QR codes from text."
+            "info": "Info"
         }
     }
 
