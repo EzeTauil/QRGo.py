@@ -54,7 +54,7 @@ def cambiar_idioma(idioma):
             "update": "🔍 Buscar Actualizaciones",
             "exit": "⛔ Salir",
             "about": "Acerca de",
-            "info": "Este programa genera códigos QR a partir de texto."
+            "info": "Info."
         },
         "en": {
             "title": "QR Generator",
