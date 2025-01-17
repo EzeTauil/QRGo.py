@@ -119,10 +119,10 @@ frame_buttons.pack(pady=20)
 btn_generate = tk.Button(frame_buttons, text="🖋 Generar QR", font=("Arial", 12), bg="green", fg="white", command=generar_qr)
 btn_generate.grid(row=0, column=0, padx=10)
 
-btn_update = tk.Button(frame_buttons, text="Buscar Actualizaciones", font=("Arial", 12), bg="orange", fg="white", command=actualizar_programa)
+btn_update = tk.Button(frame_buttons, text="🔍 Buscar Actualizaciones", font=("Arial", 12), bg="orange", fg="white", command=actualizar_programa)
 btn_update.grid(row=0, column=1, padx=10)
 
-btn_exit = tk.Button(frame_buttons, text="Salir", font=("Arial", 12), bg="red", fg="white", command=root.quit)
+btn_exit = tk.Button(frame_buttons, text="⛔ Salir", font=("Arial", 12), bg="red", fg="white", command=root.quit)
 btn_exit.grid(row=0, column=2, padx=10)
 
 # Marca registrada
