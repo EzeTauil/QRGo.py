@@ -50,7 +50,7 @@ def cambiar_idioma(idioma):
     textos = {
         "es": {
             "title": "Generador de QR",
-            "generate": "Generar QR",
+            "generate": "🖋 Generar QR",
             "update": "Buscar Actualizaciones",
             "exit": "Salir",
             "about": "Acerca de",
@@ -58,7 +58,7 @@ def cambiar_idioma(idioma):
         },
         "en": {
             "title": "QR Generator",
-            "generate": "Generate QR",
+            "generate": "🖋 Generate QR",
             "update": "Check for Updates",
             "exit": "Exit",
             "about": "About",
