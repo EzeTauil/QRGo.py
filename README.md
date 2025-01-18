@@ -64,10 +64,10 @@ Ejecuta el programa:
 
     python QRGo.py
 
-Contribuciones
+_Contribuciones_
 
 Si tienes sugerencias, mejoras o correcciones, no dudes en abrir un "issue" o enviar un "pull request". ¡Toda contribución es bienvenida!
 
-Licencia
+_Licencia_
 
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
