@@ -24,23 +24,23 @@ Características
     qrcode (Para generar los códigos QR)
     winshell (Para la interacción con el sistema de Windows)
 
-Instalación
+## Instalación
 
 Si sos usuario de Windows y no tenes instalado git , es recomendable hacerlo antes de clonar el repositorio.
 
-Link de descarga para git:
+### Link de descarga para git:
 
     https://git-scm.com/downloads/win
 
-Opciones para usar QRGo
+### Opciones para usar QRGo
 
-1. Ejecutar directamente el programa (recomendado)
+## 1. Ejecutar directamente el programa (recomendado)
 
-Windows:
+### Windows:
 Descarga el archivo QRGo.exe desde la sección Releases. Haz doble clic en el archivo, ¡y listo!
 No necesitas realizar ningún paso adicional.
 
-Linux:
+### Linux:
 Descarga el archivo QRGo desde la sección Releases.
 Asegúrate de dar permisos de ejecución al archivo descargado:
 
@@ -50,7 +50,7 @@ Luego, ejecútalo:
 
     ./QRGo
 
-2. Instalar manualmente desde el repositorio (para desarrolladores o usuarios avanzados)
+## 2. Instalar manualmente desde el repositorio (para desarrolladores o usuarios avanzados)
 
 Clona este repositorio en tu máquina local:
 
