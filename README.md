@@ -1,7 +1,7 @@
-# QRGo.py 
+# QRGo.py v.1.0
 
 
-QRGo.py es una herramienta intuitiva y fácil de usar para generar códigos QR personalizados. Este programa permite a los usuarios ingresar  mensajes o URL's, y luego genera un código QR que puede ser escaneado para acceder a esa información de manera rápida y eficiente.
+QRGo.py es una herramienta intuitiva y fácil de usar para generar códigos QR personalizados, es funcional tanto para Linux como para Windows. Este programa permite a los usuarios ingresar  mensajes o URL's, y luego genera un código QR que puede ser escaneado para acceder a esa información de manera rápida y eficiente.
 Características
 
     QRGo.py: Permite ingresar texto con instrucciones, URL's o mensajes que quieres que sean privados, y luego genera un código QR que almacena dicha información.
@@ -22,8 +22,15 @@ Requisitos
     Tkinter (Para la interfaz gráfica)
     Pillow (Para manejar imágenes)
     qrcode (Para generar los códigos QR)
+    winshell (Para la interacción con el sistema de Windows)
 
 Instalación
+
+Si sos usuario de Windows y no tenes instalado git , es recomendable hacerlo antes de clonar el repositorio.
+
+Link de descarga para git:
+
+    https://git-scm.com/downloads/win
 
 Clona este repositorio en tu máquina local:
 
