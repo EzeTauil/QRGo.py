@@ -68,6 +68,6 @@ __Contribuciones__
 
 Si tienes sugerencias, mejoras o correcciones, no dudes en abrir un "issue" o enviar un "pull request". ¡Toda contribución es bienvenida!
 
-_Licencia_
+__Licencia__
 
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
