@@ -16,7 +16,7 @@ Características
 
     Fácil de Usar: La herramienta está diseñada para ser simple y accesible, sin necesidad de configuraciones complejas, lo que la convierte en una opción ideal para quienes buscan eficiencia en el proceso de creación de códigos QR.
 
-Requisitos
+##Requisitos
 
     Python 3.x
     Tkinter (Para la interfaz gráfica)
