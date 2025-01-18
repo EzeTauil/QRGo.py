@@ -32,6 +32,26 @@ Link de descarga para git:
 
     https://git-scm.com/downloads/win
 
+Opciones para usar QRGo
+
+1. Ejecutar directamente el programa (recomendado)
+
+Windows:
+Descarga el archivo QRGo.exe desde la sección Releases. Haz doble clic en el archivo, ¡y listo!
+No necesitas realizar ningún paso adicional.
+
+Linux:
+Descarga el archivo QRGo desde la sección Releases.
+Asegúrate de dar permisos de ejecución al archivo descargado:
+
+    chmod +x QRGo
+
+Luego, ejecútalo:
+
+    ./QRGo
+
+2. Instalar manualmente desde el repositorio (para desarrolladores o usuarios avanzados)
+
 Clona este repositorio en tu máquina local:
 
     git clone https://github.com/EzeTauil/QRGo.git
