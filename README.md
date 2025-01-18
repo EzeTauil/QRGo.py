@@ -32,7 +32,7 @@ Si sos usuario de Windows y no tenes instalado git , es recomendable hacerlo ant
 
     https://git-scm.com/downloads/win
 
-### Opciones para usar QRGo
+## _Opciones para usar QRGo_
 
 ## 1. Ejecutar directamente el programa (recomendado)
 
