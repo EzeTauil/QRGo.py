@@ -64,7 +64,7 @@ Ejecuta el programa:
 
     python QRGo.py
 
-_Contribuciones_
+__Contribuciones__
 
 Si tienes sugerencias, mejoras o correcciones, no dudes en abrir un "issue" o enviar un "pull request". ¡Toda contribución es bienvenida!
 
