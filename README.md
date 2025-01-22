@@ -57,6 +57,13 @@ Clona este repositorio en tu máquina local:
 
     git clone https://github.com/EzeTauil/QRGo.git
 
+Si sos usuario Linux, antes de instalar las dependencias es recomendable activar un entorno virtual:
+
+    python -m venv (nombre_del_entorno virtual que vos quieras) (ej: python -m venv qrgo)
+    cd nombre_del_entorno
+    source nombre_del_entorno/bin/activate
+
+
 Instala las dependencias necesarias:
 
     pip install -r requirements.txt
