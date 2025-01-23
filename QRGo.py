@@ -54,7 +54,16 @@ def cambiar_idioma(idioma):
             "update": "🔍 Buscar Actualizaciones",
             "exit": "⛔ Salir",
             "about": "Acerca de",
-            "info": "Info."
+            "info": "Info.",
+            "about_text": "Este programa genera códigos QR a partir de texto.",
+            "info_text": (
+                "Información: \n\n"
+                "QRGo v.1.0\n"
+                "Generador avanzado de códigos QR con opciones de personalización.\n\n"
+                "Creador: Ezequiel Tauil (ShadowCrypt-Security)\n"
+                "Más herramientas: https://github.com/EzeTauil"
+           ),
+            "footer": "© 2025 ShadowCrypt-Security - Todos los derechos reservados\n Desarrollado por: Ezequiel Tauil"
         },
         "en": {
             "title": "QR Generator",
@@ -62,18 +71,32 @@ def cambiar_idioma(idioma):
             "update": "🔍 Check for Updates",
             "exit": "⛔ Exit",
             "about": "About",
-            "info": "Info"
+            "info": "Info",
+            "about_text": "This program generates QR codes from text.",
+            "info_text": (
+                "Information: \n\n"
+                "QRGo v.1.0\n"
+                "Advanced QR code generator with customization options.\n\n"
+                "Creator: Ezequiel Tauil (ShadowCrypt-Security)\n"
+                "More tools: https://github.com/EzeTauil"
+            ),
+            "footer": "© 2025 ShadowCrypt-Security - All rights reserved\n Developed by: Ezequiel Tauil"
         }
     }
 
     lang = textos.get(idioma, textos["es"])
     root.title(lang["title"])
+    label_footer.config(text=lang["footer"])
     label_title.config(text=lang["title"])
     btn_generate.config(text=lang["generate"])
     btn_update.config(text=lang["update"])
     btn_exit.config(text=lang["exit"])
     menu_about.entryconfig(0, label=lang["about"])
     menu_about.entryconfig(1, label=lang["info"])
+
+# Crear el texto del pie de página vacío para cambiarlo luego con el idioma
+label_footer = tk.Label(root, text="", font=("Arial", 10), fg="gray")
+label_footer.pack(side=tk.BOTTOM, pady=10)
 
 # Configuración principal de la ventana
 root = tk.Tk()
