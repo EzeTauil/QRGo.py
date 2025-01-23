@@ -94,9 +94,6 @@ def cambiar_idioma(idioma):
     menu_about.entryconfig(0, label=lang["about"])
     menu_about.entryconfig(1, label=lang["info"])
 
-# Crear el texto del pie de página vacío para cambiarlo luego con el idioma
-label_footer = tk.Label(root, text="", font=("Arial", 10), fg="gray")
-label_footer.pack(side=tk.BOTTOM, pady=10)
 
 # Configuración principal de la ventana
 root = tk.Tk()
@@ -121,6 +118,10 @@ menu_language = tk.Menu(menu_bar, tearoff=0)
 menu_language.add_command(label="Español", command=lambda: cambiar_idioma("es"))
 menu_language.add_command(label="English", command=lambda: cambiar_idioma("en"))
 menu_bar.add_cascade(label="Idioma", menu=menu_language)
+
+# Crear el texto del pie de página vacío para cambiarlo luego con el idioma
+label_footer = tk.Label(root, text="", font=("Arial", 10), fg="gray")
+label_footer.pack(side=tk.BOTTOM, pady=10)
 
 # Crear el texto principal
 label_title = tk.Label(root, text="Generador de QR", font=("Arial", 35, "bold"), 
