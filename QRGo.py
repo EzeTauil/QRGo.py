@@ -91,8 +91,8 @@ def cambiar_idioma(idioma):
     btn_generate.config(text=lang["generate"])
     btn_update.config(text=lang["update"])
     btn_exit.config(text=lang["exit"])
-    menu_about.entryconfig(0, label=lang["about"])
-    menu_about.entryconfig(1, label=lang["info"])
+    menu_about.entryconfig(0, label=lang["about"], command=lambda: messagebox.showinfo(lang["about"], lang["about_text"]))
+    menu_about.entryconfig(1, label=lang["info"], command=lambda: messagebox.showinfo(lang["info"], lang["info_text"]))
 
 
 # Configuración principal de la ventana
