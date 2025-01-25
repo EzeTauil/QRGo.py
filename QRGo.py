@@ -37,7 +37,7 @@ def generar_qr():
 def actualizar_programa():
     """Actualiza el programa dependiendo del sistema operativo"""
     try:
-         if os.name == 'nt':  # Windows
+        if os.name == 'nt':  # Windows
             exe_path = os.path.abspath(__file__)
             update_script = os.path.join(os.path.dirname(exe_path), "update.bat")
             subprocess.run([update_script], check=True)
@@ -49,6 +49,7 @@ def actualizar_programa():
                 messagebox.showinfo("Actualización", "El programa se actualizó correctamente. Reinicia para aplicar los cambios.")
     except Exception as e:
         messagebox.showerror("Error", f"No se pudo actualizar el programa.\n{e}")
+
 
 def cambiar_idioma(idioma):
     """Cambia los textos de la interfaz según el idioma seleccionado."""
