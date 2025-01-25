@@ -35,13 +35,18 @@ def generar_qr():
         messagebox.showwarning("Cancelado", "No se guardó el QR.")
 
 def actualizar_programa():
-    """Actualiza el programa usando git pull."""
+    """Actualiza el programa dependiendo del sistema operativo"""
     try:
-        result = subprocess.run(["git", "pull", "origin", "main"], capture_output=True, text=True)
-        if "Already up to date." in result.stdout:
-            messagebox.showinfo("Actualización", "El programa ya está actualizado.")
-        else:
-            messagebox.showinfo("Actualización", "El programa se actualizó correctamente. Reinicia para aplicar los cambios.")
+         if os.name == 'nt':  # Windows
+            exe_path = os.path.abspath(__file__)
+            update_script = os.path.join(os.path.dirname(exe_path), "update.bat")
+            subprocess.run([update_script], check=True)
+        else:  # Linux/Mac
+            result = subprocess.run(["git", "pull", "origin", "main"], capture_output=True, text=True)
+            if "Already up to date." in result.stdout:
+                messagebox.showinfo("Actualización", "El programa ya está actualizado.")
+            else:
+                messagebox.showinfo("Actualización", "El programa se actualizó correctamente. Reinicia para aplicar los cambios.")
     except Exception as e:
         messagebox.showerror("Error", f"No se pudo actualizar el programa.\n{e}")
 
